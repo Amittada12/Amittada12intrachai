@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student</title>
+</head>
+
+<body>
+    <h1>สมัครเรียน (ปีการศึกษา 1/2566) ระดับ ปวช. (สบทบ)</h1>
+    <h2>2. กรอกข้อมูลผู้สมัครเรียน</h2>
+        <h4>ข้อมูลผู้สมัคร (** ระบุ รหัสประจำตัวประชาชน และ วัน /เดือน /ปี เกิด เพื่อตรวจสอบข้อมูล)</h4>
+        <form>
+            <div class="id_card">
+                *เลขประจำตัวบัตรประชาชน
+                <input type="text" class="form-control" name="id_card" placeholder="เลขบัตรประชาชน 13 หลัก" required
+                    minlength="13" maxlength="13">
+            </div><br>
+        <div>
+            <label for="">*วัน/เดือน/ปี</label>
+            <input type="date" name="birthdate">
+        </div><br>
+        <div>
+            <a href="longtabian.html">
+                <input type="button" value="ตรวจสอบ">
+            <input type="reset" value="เริ่มใหม่">
+        </div>
+    </form>
+</body>
+
+</html>
